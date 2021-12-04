@@ -2,4 +2,19 @@ body, html{
     background-color: rgb(61, 61, 61);
     color: white;
     text-align: center;
+    display: grid;
+}
+
+.body-wrapper{
+    flex-direction: column;
+    display: grid;
+    
+}
+
+
+
+.a-link{
+    text-decoration: none;
+    color: inherit;
+    color: white;
 }
