@@ -1,23 +1,27 @@
 body, html{
     background-color: rgb(61, 61, 61);
     color: white;
+    
+    display: grid;
+}
+
+.body-wrapper{
+    flex-direction: row;
+    display: grid;
     text-align: center;
+    
 }
 
-.flag-wrapper{
-    position: relative;
-    float: top;
-    float: left;
-    border: none;
+
+
+.a-link{
+    text-decoration: none;
+    color: inherit;
+    color: white;
 }
 
-.flag{
-    position:absolute;
-    top:0;
-    right:0;
-    max-width: 64px;
-    float: top;
-    float: left;
-    border: none;
-
+.img-link{
+    margin: auto;
+    width: 1%;
+    
 }
