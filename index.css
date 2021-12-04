@@ -6,12 +6,18 @@ body, html{
 
 .flag-wrapper{
     position: relative;
+    float: top;
+    float: left;
+    border: none;
 }
 
 .flag{
-    position: absolute;
-    top: 0px;
-    right: 0px;
+    position:absolute;
+    top:0;
+    right:0;
     max-width: 64px;
+    float: top;
+    float: left;
+    border: none;
 
 }
