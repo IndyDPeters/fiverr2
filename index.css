@@ -3,3 +3,15 @@ body, html{
     color: white;
     text-align: center;
 }
+
+.flag-wrapper{
+    position: relative;
+}
+
+.flag{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    max-width: 64px;
+
+}
