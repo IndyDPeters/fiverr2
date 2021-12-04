@@ -1,13 +1,14 @@
 body, html{
     background-color: rgb(61, 61, 61);
     color: white;
-    text-align: center;
+    
     display: grid;
 }
 
 .body-wrapper{
-    flex-direction: column;
+    flex-direction: row;
     display: grid;
+    text-align: center;
     
 }
 
@@ -17,4 +18,10 @@ body, html{
     text-decoration: none;
     color: inherit;
     color: white;
+}
+
+.img-link{
+    margin: auto;
+    width: 1%;
+    
 }
