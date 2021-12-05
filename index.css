@@ -9,6 +9,7 @@ body, html{
     flex-direction: row;
     display: grid;
     text-align: center;
+    font-size: xx-large;
 }
 
 .img-header{
@@ -34,7 +35,9 @@ body, html{
 
 .img-link{
     margin: auto;
-    width: 1%;
+   
+    width: 2%;
+    
 }
 
 @media (max-width: 991px){
