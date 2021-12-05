@@ -1,7 +1,7 @@
 body, html{
     background-color: rgb(61, 61, 61);
     color: white;
-    
+    font-family: 'Roboto', sans-serif;
     display: grid;
 }
 
@@ -9,7 +9,6 @@ body, html{
     flex-direction: row;
     display: grid;
     text-align: center;
-    
 }
 
 .img-header{
@@ -36,13 +35,11 @@ body, html{
 .img-link{
     margin: auto;
     width: 1%;
-    
 }
 
 @media (max-width: 991px){
     .img-link{
         width: 9%;
-        
   }
 }
 
