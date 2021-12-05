@@ -12,16 +12,17 @@ body, html{
     font-size: xx-large;
 }
 
-.img-header{
-    width: 3%;
-    align-items: center;
-    margin: auto;
-}
-
 @media (max-width: 991px){
     .body-wrapper{
         font-size: 450%;
     }
+}
+
+
+.img-header{
+    width: 3%;
+    align-items: center;
+    margin: auto;
 }
 
 @media (max-width: 991px){
@@ -46,13 +47,23 @@ body, html{
   }
 }
 
+.watermark{
+    text-align: center;
+    font-size: small;
+    bottom: 0;
+}
 
-
-
+@media (max-width :991px){
+    .watermark{
+        font-size: x-large;
+    }
+}
 
 .a-link{
     text-decoration: none;
     color: inherit;
     color: white;
 }
+
+
 
