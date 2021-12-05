@@ -12,6 +12,27 @@ body, html{
     
 }
 
+.img-header{
+    width: 3%;
+    align-items: center;
+    margin: auto;
+}
+
+@media (max-width: 991px){
+    .body-wrapper{
+        font-size: xx-large;
+    }
+}
+
+@media (max-width: 991px){
+    .img-header{
+        width: 15%;
+        margin: auto;
+        text-align: center;
+    }
+}
+
+
 
 
 .a-link{
