@@ -20,7 +20,7 @@ body, html{
 
 @media (max-width: 991px){
     .body-wrapper{
-        font-size: xx-large;
+        font-size: 450%;
     }
 }
 
@@ -33,6 +33,21 @@ body, html{
 }
 
 
+.img-link{
+    margin: auto;
+    width: 1%;
+    
+}
+
+@media (max-width: 991px){
+    .img-link{
+        width: 9%;
+        
+  }
+}
+
+
+
 
 
 .a-link{
@@ -41,8 +56,3 @@ body, html{
     color: white;
 }
 
-.img-link{
-    margin: auto;
-    width: 1%;
-    
-}
